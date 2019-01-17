@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "44466590c53e76100d172f60f09ef013"
+build_time: [1543609393, 501387000]
+inputs:
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/AFError.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Alamofire.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/MultipartFormData.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Notifications.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/ParameterEncoding.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Request.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Response.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/ResponseSerialization.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Result.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/SessionDelegate.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/SessionManager.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/TaskDelegate.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Timeline.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Alamofire/Source/Validation.swift": [1486047220, 0]

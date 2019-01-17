@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "2b495f926af29d88e716c7faf622ab48"
+build_time: [1542142868, 808433000]
+inputs:
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKHealthAnswerFormat.swift": [1536631484, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepNavigationRule.swift": [1536631484, 0]

@@ -1,0 +1,614 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TagTappedDelegate"
+- "ScrollViewController"
+provides-nominal:
+- "12sleepcoacher17TagTappedDelegateP"
+- "12sleepcoacher20ScrollViewControllerC"
+provides-member:
+- ["12sleepcoacher17TagTappedDelegateP", ""]
+- ["12sleepcoacher20ScrollViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "sendTag"
+- "tagEarplugs"
+- "tagLateCaffeine"
+- "tagLateCaffeinePopulate"
+- "tagLateExercise"
+- "tagLateExercisePopulate"
+- "tagLateNap"
+- "tagLateNapPopulate"
+- "tagMeditate"
+- "tagWhiteNoise"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "BooleanLiteralType"
+- "NSString"
+- "ScrollViewController"
+- !private "StringLiteralType"
+- "TagTappedDelegate"
+- "UIButton"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sendTag"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sendTag"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sendTag"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "didReceiveMemoryWarning"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "print"]
+- !private ["SQ", "sendTag"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "delegate"]
+- !private ["SH", "didReceiveMemoryWarning"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "print"]
+- !private ["SH", "sendTag"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "sendTag"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "sendTag"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "TagTappedDelegate"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "popViewController"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "sendTag"]
+- ["So8NSObjectC", "tagEarplugs"]
+- ["So8NSObjectC", "tagLateCaffeine"]
+- ["So8NSObjectC", "tagLateCaffeinePopulate"]
+- ["So8NSObjectC", "tagLateExercise"]
+- ["So8NSObjectC", "tagLateExercisePopulate"]
+- ["So8NSObjectC", "tagLateNap"]
+- ["So8NSObjectC", "tagLateNapPopulate"]
+- ["So8NSObjectC", "tagMeditate"]
+- ["So8NSObjectC", "tagWhiteNoise"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "sendTag"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["12sleepcoacher20ScrollViewControllerC", "NSString"]
+- ["12sleepcoacher20ScrollViewControllerC", "TagTappedDelegate"]
+- ["12sleepcoacher20ScrollViewControllerC", "UIButton"]
+- ["12sleepcoacher20ScrollViewControllerC", "delegate"]
+- ["12sleepcoacher20ScrollViewControllerC", "didReceiveMemoryWarning"]
+- ["12sleepcoacher20ScrollViewControllerC", "init"]
+- !private ["12sleepcoacher20ScrollViewControllerC", "navigationController"]
+- !private ["12sleepcoacher20ScrollViewControllerC", "print"]
+- ["12sleepcoacher20ScrollViewControllerC", "sendTag"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagEarplugs"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateCaffeine"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateCaffeinePopulate"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateExercise"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateExercisePopulate"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateNap"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagLateNapPopulate"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagMeditate"]
+- ["12sleepcoacher20ScrollViewControllerC", "tagWhiteNoise"]
+- ["12sleepcoacher20ScrollViewControllerC", "viewDidLoad"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["12sleepcoacher17TagTappedDelegateP", "NSString"]
+- ["12sleepcoacher17TagTappedDelegateP", "userDidTapTag"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "sendTag"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "sendTag"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "sendTag"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "sendTag"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "NSString"]
+- ["So11UIResponderC", "TagTappedDelegate"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "sendTag"]
+- ["So11UIResponderC", "tagEarplugs"]
+- ["So11UIResponderC", "tagLateCaffeine"]
+- ["So11UIResponderC", "tagLateCaffeinePopulate"]
+- ["So11UIResponderC", "tagLateExercise"]
+- ["So11UIResponderC", "tagLateExercisePopulate"]
+- ["So11UIResponderC", "tagLateNap"]
+- ["So11UIResponderC", "tagLateNapPopulate"]
+- ["So11UIResponderC", "tagMeditate"]
+- ["So11UIResponderC", "tagWhiteNoise"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "sendTag"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "sendTag"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "sendTag"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "sendTag"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "NSString"]
+- ["So16UIViewControllerC", "TagTappedDelegate"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "sendTag"]
+- ["So16UIViewControllerC", "tagEarplugs"]
+- ["So16UIViewControllerC", "tagLateCaffeine"]
+- ["So16UIViewControllerC", "tagLateCaffeinePopulate"]
+- ["So16UIViewControllerC", "tagLateExercise"]
+- ["So16UIViewControllerC", "tagLateExercisePopulate"]
+- ["So16UIViewControllerC", "tagLateNap"]
+- ["So16UIViewControllerC", "tagLateNapPopulate"]
+- ["So16UIViewControllerC", "tagMeditate"]
+- ["So16UIViewControllerC", "tagWhiteNoise"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendTag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- "12sleepcoacher20ScrollViewControllerC"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- "12sleepcoacher17TagTappedDelegateP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Modules/ResearchKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ResearchKit-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDeprecated.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAudioLevelNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStepNavigationRule_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKOrderedTask_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentSection_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPageStep_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKRecorder_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTaskViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStepViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHelpers_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAnswerFormat_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ResearchKit_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKResult_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKBorderedButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKContinueButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTextButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPSATStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestPlaceStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryPracticeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKNavigablePageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTableStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKReactionTimeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTouchAnywhereStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKSignatureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVideoCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestRemoveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTrailmakingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTowerOfHanoiStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKWalkingTaskStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTappingIntervalStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVideoInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCompletionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKShoulderRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCountdownStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAudioStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStroopStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKFitnessStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKSpatialSpanMemoryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher-Bridging-Header.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHealthQuantityTypeRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTouchRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKLocationRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDeviceMotionRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAudioRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPedometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAccelerometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDataCollectionManager.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDataLogger.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPSATStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPageStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTableStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTouchAnywhereStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKSignatureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentSharingStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTimedWalkStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKWalkingTaskStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTappingIntervalStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVideoInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCompletionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCountdownStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAudioStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKStroopStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKFitnessStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKWaitStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKVisualConsentStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCollector.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKChartTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKErrors.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKCustomStepView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Headers/ORKBarGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphonesimulator/ResearchKit/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "490edfa92d9389254a652fa9b4ad7549"

@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So26ORKBiologicalSexIdentifiera", ""]
+- ["So22ORKBloodTypeIdentifiera", ""]
+- ["So26ORKBiologicalSexIdentifiera", "healthKitBiologicalSex"]
+- ["So22ORKBloodTypeIdentifiera", "healthKitBloodType"]
+provides-dynamic-lookup:
+depends-top-level:
+- "HKBiologicalSex"
+- "HKBloodType"
+- "ORKBiologicalSexIdentifier"
+- "ORKBloodTypeIdentifier"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "HKBiologicalSex"]
+- !private ["SQ", "HKBloodType"]
+- !private ["SQ", "ORKBiologicalSexIdentifier"]
+- !private ["SQ", "ORKBloodTypeIdentifier"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "aNegative"]
+- !private ["SQ", "aPositive"]
+- !private ["SQ", "abNegative"]
+- !private ["SQ", "abPositive"]
+- !private ["SQ", "bNegative"]
+- !private ["SQ", "bPositive"]
+- !private ["SQ", "female"]
+- !private ["SQ", "male"]
+- !private ["SQ", "oNegative"]
+- !private ["SQ", "oPositive"]
+- !private ["SQ", "other"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["So15HKBiologicalSexV", "female"]
+- !private ["So15HKBiologicalSexV", "male"]
+- !private ["So15HKBiologicalSexV", "other"]
+- !private ["So11HKBloodTypeV", "aNegative"]
+- !private ["So11HKBloodTypeV", "aPositive"]
+- !private ["So11HKBloodTypeV", "abNegative"]
+- !private ["So11HKBloodTypeV", "abPositive"]
+- !private ["So11HKBloodTypeV", "bNegative"]
+- !private ["So11HKBloodTypeV", "bPositive"]
+- !private ["So11HKBloodTypeV", "oNegative"]
+- !private ["So11HKBloodTypeV", "oPositive"]
+- !private ["SH", "HKBiologicalSex"]
+- !private ["SH", "HKBloodType"]
+- !private ["SH", "ORKBiologicalSexIdentifier"]
+- !private ["SH", "ORKBloodTypeIdentifier"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "aNegative"]
+- !private ["SH", "aPositive"]
+- !private ["SH", "abNegative"]
+- !private ["SH", "abPositive"]
+- !private ["SH", "bNegative"]
+- !private ["SH", "bPositive"]
+- !private ["SH", "female"]
+- !private ["SH", "male"]
+- !private ["SH", "oNegative"]
+- !private ["SH", "oPositive"]
+- !private ["SH", "other"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So26ORKBiologicalSexIdentifiera", "HKBiologicalSex"]
+- !private ["So26ORKBiologicalSexIdentifiera", "ORKBiologicalSexIdentifier"]
+- !private ["So26ORKBiologicalSexIdentifiera", "female"]
+- ["So26ORKBiologicalSexIdentifiera", "healthKitBiologicalSex"]
+- !private ["So26ORKBiologicalSexIdentifiera", "male"]
+- !private ["So26ORKBiologicalSexIdentifiera", "other"]
+- ["So22ORKBloodTypeIdentifiera", "HKBloodType"]
+- !private ["So22ORKBloodTypeIdentifiera", "ORKBloodTypeIdentifier"]
+- !private ["So22ORKBloodTypeIdentifiera", "aNegative"]
+- !private ["So22ORKBloodTypeIdentifiera", "aPositive"]
+- !private ["So22ORKBloodTypeIdentifiera", "abNegative"]
+- !private ["So22ORKBloodTypeIdentifiera", "abPositive"]
+- !private ["So22ORKBloodTypeIdentifiera", "bNegative"]
+- !private ["So22ORKBloodTypeIdentifiera", "bPositive"]
+- ["So22ORKBloodTypeIdentifiera", "healthKitBloodType"]
+- !private ["So22ORKBloodTypeIdentifiera", "oNegative"]
+- !private ["So22ORKBloodTypeIdentifiera", "oPositive"]
+- !private ["SY", "HKBiologicalSex"]
+- !private ["SY", "HKBloodType"]
+- !private ["SY", "ORKBiologicalSexIdentifier"]
+- !private ["SY", "ORKBloodTypeIdentifier"]
+- !private ["SY", "aNegative"]
+- !private ["SY", "aPositive"]
+- !private ["SY", "abNegative"]
+- !private ["SY", "abPositive"]
+- !private ["SY", "bNegative"]
+- !private ["SY", "bPositive"]
+- !private ["SY", "female"]
+- !private ["SY", "male"]
+- !private ["SY", "oNegative"]
+- !private ["SY", "oPositive"]
+- !private ["SY", "other"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "HKBiologicalSex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "HKBloodType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ORKBiologicalSexIdentifier"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ORKBloodTypeIdentifier"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "aNegative"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "aPositive"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "abNegative"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "abPositive"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bNegative"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bPositive"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "female"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "male"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "oNegative"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "oPositive"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "other"]
+- !private ["s21_ObjectiveCBridgeableP", "HKBiologicalSex"]
+- !private ["s21_ObjectiveCBridgeableP", "HKBloodType"]
+- !private ["s21_ObjectiveCBridgeableP", "ORKBiologicalSexIdentifier"]
+- !private ["s21_ObjectiveCBridgeableP", "ORKBloodTypeIdentifier"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "aNegative"]
+- !private ["s21_ObjectiveCBridgeableP", "aPositive"]
+- !private ["s21_ObjectiveCBridgeableP", "abNegative"]
+- !private ["s21_ObjectiveCBridgeableP", "abPositive"]
+- !private ["s21_ObjectiveCBridgeableP", "bNegative"]
+- !private ["s21_ObjectiveCBridgeableP", "bPositive"]
+- !private ["s21_ObjectiveCBridgeableP", "female"]
+- !private ["s21_ObjectiveCBridgeableP", "male"]
+- !private ["s21_ObjectiveCBridgeableP", "oNegative"]
+- !private ["s21_ObjectiveCBridgeableP", "oPositive"]
+- !private ["s21_ObjectiveCBridgeableP", "other"]
+- !private ["s20_SwiftNewtypeWrapperP", "HKBiologicalSex"]
+- !private ["s20_SwiftNewtypeWrapperP", "HKBloodType"]
+- !private ["s20_SwiftNewtypeWrapperP", "ORKBiologicalSexIdentifier"]
+- !private ["s20_SwiftNewtypeWrapperP", "ORKBloodTypeIdentifier"]
+- !private ["s20_SwiftNewtypeWrapperP", "aNegative"]
+- !private ["s20_SwiftNewtypeWrapperP", "aPositive"]
+- !private ["s20_SwiftNewtypeWrapperP", "abNegative"]
+- !private ["s20_SwiftNewtypeWrapperP", "abPositive"]
+- !private ["s20_SwiftNewtypeWrapperP", "bNegative"]
+- !private ["s20_SwiftNewtypeWrapperP", "bPositive"]
+- !private ["s20_SwiftNewtypeWrapperP", "female"]
+- !private ["s20_SwiftNewtypeWrapperP", "male"]
+- !private ["s20_SwiftNewtypeWrapperP", "oNegative"]
+- !private ["s20_SwiftNewtypeWrapperP", "oPositive"]
+- !private ["s20_SwiftNewtypeWrapperP", "other"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "So15HKBiologicalSexV"
+- !private "So11HKBloodTypeV"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So26ORKBiologicalSexIdentifiera"
+- "So22ORKBloodTypeIdentifiera"
+- !private "SY"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/Target Support Files/ResearchKit/ResearchKit-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ORKDeprecated.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAudioLevelNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentSignature.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKResultPredicate.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepNavigationRule_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKOrderedTask_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentSection_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPageStep_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKRecorder_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKQuestionStepViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKHelpers_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKAnswerFormat_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ResearchKit_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKResult_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKNavigableOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentSection.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKBorderedButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKContinueButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTextButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKPSATStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKHolePegTestPlaceStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKToneAudiometryPracticeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPasscodeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKNavigablePageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTableStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKReactionTimeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTouchAnywhereStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKSignatureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKImageCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKVideoCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKHolePegTestRemoveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTrailmakingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentSharingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTowerOfHanoiStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTimedWalkStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKWalkingTaskStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTappingIntervalStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKFormStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Onboarding/ORKLoginStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Onboarding/ORKVerificationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Onboarding/ORKRegistrationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKVideoInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKCompletionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKShoulderRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKQuestionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKCountdownStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAudioStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKStroopStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKFitnessStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKWaitStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKVisualConsentStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKSpatialSpanMemoryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKToneAudiometryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKHealthQuantityTypeRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTouchRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKLocationRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKDeviceMotionRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAudioRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKPedometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAccelerometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKDataCollectionManager.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKDataLogger.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPasscodeViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKPSATStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPasscodeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKPageStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTableStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTouchAnywhereStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKSignatureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKImageCaptureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentSharingStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTimedWalkStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKWalkingTaskStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTappingIntervalStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKFormStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Onboarding/ORKLoginStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Onboarding/ORKVerificationStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKVideoInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKCompletionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKQuestionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKCountdownStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKAudioStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKStroopStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKFitnessStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKWaitStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKVisualConsentStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKToneAudiometryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKKeychainWrapper.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKCollector.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKDefines.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKChartTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKErrors.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKHealthAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ResearchKit.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKResult.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKConsentDocument.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKCustomStepView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKPieChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKLineGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKDiscreteGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Charts/ORKBarGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ResearchKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c563efe770f3c1f823ae9c394854f470"

@@ -1,0 +1,491 @@
+//
+//  ViewController.swift
+//  oct21
+//
+//  Created by Nediyana Daskalova on 10/21/15.
+//  Copyright © 2015 nediyana. All rights reserved.
+//
+
+import UIKit
+import CoreMotion
+import Foundation
+import Alamofire
+import SwiftyJSON
+import AVFoundation
+//
+//extension NSData { // from http://codereview.stackexchange.com/questions/86611/save-token-id-into-a-database-in-swift/86613#86613 (swift 2 at the bottom)
+//    var hexString: String {
+//        let bytes = UnsafeBufferPointer<UInt8>(start: UnsafePointer(self.bytes), count:self.length)
+//        return bytes.map { String(format: "%02hhx", $0) }.reduce("", combine: { $0 + $1 })
+//    }
+//}
+//
+class ViewController: UIViewController, AVAudioRecorderDelegate {
+    let motionManager: CMMotionManager = CMMotionManager()
+    let accelData: CMAccelerometerData = CMAccelerometerData()
+    
+    let userID = UIDevice.currentDevice().identifierForVendor!.UUIDString
+    var postsEndpoint: String = "http://sleep.cs.brown.edu:80"
+    
+    @IBOutlet var label: UILabel!
+    @IBOutlet weak var timestamp: UILabel!
+    
+    var recordedAudio: RecordedAudio!
+    var audioRecorder: AVAudioRecorder!
+    var audioPlayer: AVAudioPlayer!
+    var filePath: NSURL!
+    
+    var recordedDecibelArray = [Float]() // this is only printed later, NEVER USED
+    var recordedDateTimeArray = [NSDate]() // this is only printed later, NEVER USED
+
+    var timer = NSTimer()
+    var content = ""
+    
+    let dir: NSURL = NSFileManager.defaultManager().URLsForDirectory(NSSearchPathDirectory.CachesDirectory, inDomains: NSSearchPathDomainMask.UserDomainMask).last as NSURL!
+    
+    var PATH_STRING = ""
+    func sayHello()
+    {
+        motionManager.accelerometerUpdateInterval = 1 //1 time per second
+
+        let date = NSDate()
+        let stamp = Int(floor(date.timeIntervalSince1970*1000))
+        
+        timestamp.text = "\(stamp)"
+      
+        var acceleration_xyz = 0.0;
+        var acceleration_x = 0.0;
+        var acceleration_y = 0.0;
+        var acceleration_z = 0.0;
+        
+        timerUpdate(stamp);
+        
+        motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
+            [weak self] (data: CMAccelerometerData?, error: NSError?) in self!.label.text = String(format:"%.2f", data!.acceleration.x)
+            
+            acceleration_x =  data!.acceleration.x
+            acceleration_y =  data!.acceleration.y
+            acceleration_z =  data!.acceleration.z
+            
+            NSLog(String(format:"%.2f", acceleration_x));
+            NSLog(String(format:"%.2f", acceleration_y));
+            NSLog(String(format:"%.2f", acceleration_z));
+            // this adds up the accelerations over all 3 axes, but if the phone us just staying stright vertically (with charging port pointing down, and screen pointing towards user while holding phone, then the y axis = -0.99, so this adds up to a high value again; maybe check that?
+            acceleration_xyz = fabs(acceleration_x) + fabs(acceleration_y) + fabs(acceleration_z)
+            NSLog("combined")
+            NSLog(String(format:"%.2f", acceleration_xyz));
+
+            self!.label.text = String(format:"%.2f", acceleration_xyz)
+            let string1 = String(format: "%.2f\n", acceleration_xyz)
+            
+//            var data1 = string1.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
+            
+            if let dataFromString = string1.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false) {
+                let json = JSON(data: dataFromString)
+                NSLog(String(stringInterpolationSegment: json))
+            }
+            
+            var acceleration_data = ""
+            var timestmp = ""
+            acceleration_data = string1 + ","
+            timestmp = "\(stamp)" + ","
+            let newPostStamp = ["Timestamp": timestmp, "accelerometer": acceleration_data, "ID_number": self!.userID];
+            let tempData = timestmp + acceleration_data + "\(self!.userID)"
+            let data1 = tempData.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
+//            NSLog(string1)
+            
+            
+            let fileurl = self!.dir.URLByAppendingPathComponent("dec11_3.txt")
+            let pathString: String = fileurl.path! // convert to string for reading from file!! from: http://stackoverflow.com/questions/33510541/how-to-convert-nsurl-to-string-in-swift
+            
+            self!.PATH_STRING = pathString
+            
+            
+            // WRITE TO FILE //
+            let stringToWrite  = "Timestamp: " + timestmp + "acceleormeter: " + acceleration_data + "ID_number: " + self!.userID
+            NSLog(stringToWrite)
+            let dataToWrite = stringToWrite.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
+            
+
+            
+            if NSFileManager.defaultManager().fileExistsAtPath(fileurl.path!) {
+                var err:NSError?
+                do {
+                    let fileHandle = try NSFileHandle(forWritingToURL: fileurl)
+                    fileHandle.seekToEndOfFile()
+                    fileHandle.writeData(dataToWrite)
+                    NSLog("in writing to FILE")
+                    let datastring = NSString(data: dataToWrite, encoding: NSUTF8StringEncoding ) as! String // from http://stackoverflow.com/questions/24023253/how-to-initialise-a-string-from-nsdata-in-swift
+                    NSLog(datastring)
+                    NSLog("DONE WRITING TO FILE")
+                    fileHandle.closeFile()
+                    
+                } catch let error as NSError {
+                    err = error
+                    print("Can't open fileHandle \(err)", terminator: "")
+                }
+            }
+            else {
+                var err:NSError?
+                do {
+                    try dataToWrite.writeToURL(fileurl, options: .DataWritingAtomic)
+                } catch let error as NSError {
+                    err = error
+                    print("Can't write \(err)", terminator: "")
+                }
+            }
+            //END OF WRITE TO FILE///
+            
+            // DEC 11 COMMENT OUT START
+            // POST REQUEST START
+//            Alamofire.request(.POST, "http://sleep.cs.brown.edu:80" , parameters: newPostStamp).response { res in
+//                NSLog("IN POST REUQUEST 1")
+//                print(res)
+//            }
+            
+            // POST REQUEST END
+            // DEC 11 COMMENT OUT END
+            
+//            let fileurl1 = self!.dir.URLByAppendingPathComponent("dec4.txt")
+//            
+//            if NSFileManager.defaultManager().fileExistsAtPath(fileurl1.path!) {
+//                var err:NSError?
+//                do {
+//                    let fileHandle = try NSFileHandle(forWritingToURL: fileurl1)
+//                    fileHandle.seekToEndOfFile()
+//                    NSLog("in write to FILE")
+//                    NSLog(tempData)
+//                    fileHandle.writeData(data1)
+//                    fileHandle.closeFile()
+//                } catch let error as NSError {
+//                    err = error
+//                    print("Can't open fileHandle \(err)", terminator: "")
+//                } catch {
+//                    fatalError()
+//                }
+//                
+//            } else {
+//                var err:NSError?
+//                do {
+//                    try data1.writeToURL(fileurl1, options: .DataWritingAtomic)
+//                } catch let error as NSError {
+//                    err = error
+//                    print("Can't write \(err)", terminator:"")
+//                } catch {
+//                    fatalError()
+//                }
+//            }
+//            
+            
+            
+            
+            
+//           Section below is meant to read from file, but is now giving an error that no such file exists. TODO.
+            
+//            if NSFileManager.defaultManager().fileExistsAtPath(fileurl1.path!) {
+//                var err:NSError?
+//                do {
+//                    let fileHandle1 = try NSFileHandle(forReadingFromURL: fileurl1)
+//                    NSLog("in read")
+//                    var path = fileurl1.absoluteString
+//                    NSLog(path)
+//                    let text2 = try String(contentsOfFile: path, encoding: NSUTF8StringEncoding)
+//                    NSLog(text2)
+//                } catch let error as NSError {
+//                    print("Error: \(error)")
+//                }
+//            } else {
+//                var err:NSError?
+//                do {
+//                    try data1.writeToURL(fileurl1, options: .DataWritingAtomic)
+//                } catch var error as NSError {
+//                    err = error
+//                    print("Can't write \(err)", terminator:"")
+//                } catch {
+//                    fatalError()
+//                }
+//            }
+            
+            }
+        }
+    
+    func recordAudio(){
+        print("in record")
+        
+        // !! to do
+        // (1) save to local
+        // (2) UPLOAD IT ONTO SERVER when/if internet connection
+        
+        // specify where audio file will be saved
+        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+        // name file with date/time to be unique
+        
+        let currentDateTime = NSDate()
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "ddMMyyyy-HHmmss"
+        let recordingName = formatter.stringFromDate(currentDateTime) + ".wav"
+        let pathArray = [dirPath, recordingName]
+        let filePath = NSURL.fileURLWithPathComponents(pathArray)
+        print(filePath)
+        
+        // create a session
+        let session = AVAudioSession.sharedInstance()
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayAndRecord)
+        } catch _ {
+        }
+        // create a new audio recorder
+        audioRecorder = try? AVAudioRecorder(URL: filePath!, settings: [:])
+        audioRecorder.delegate = self
+        audioRecorder.meteringEnabled = true
+        audioRecorder.prepareToRecord()
+        audioRecorder.record()
+        
+//        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "timerUpdate", userInfo: nil, repeats: true)
+        
+        print("recordedDecibelArray 1 \(recordedDecibelArray)")
+    }
+    
+    
+    
+    
+    // every time the NStimer fires, run this
+    // timer for accelerometer updates
+    func timerUpdate(dateString: Int){
+        print("- - - - - - inside timerUpdate")
+        audioRecorder.updateMeters()
+        
+        let numberOfChannels: Int = 2
+        var power: Float = 0.0
+        
+        for (var i = 0; i < 2; i++){
+            power += audioRecorder.averagePowerForChannel(i)
+        }
+
+        // average of the two channels
+        power /= Float(numberOfChannels)
+
+        // date stuff
+//        let currentDate = NSDate()
+//        let dateFormatter = NSDateFormatter()
+//        let theDateFormat = NSDateFormatterStyle.ShortStyle
+//        let theTimeFormat = NSDateFormatterStyle.MediumStyle
+//        dateFormatter.dateStyle = theDateFormat
+//        dateFormatter.timeStyle = theTimeFormat
+//        let dateString: String = dateFormatter.stringFromDate(currentDate)
+        let date = NSDate()
+        let dateString = ("\(Int(floor(date.timeIntervalSince1970*1000)))")
+        // send to Parse server
+        //let newDecibelObject: PFObject = PFObject(className: "noise")
+        //newDecibelObject.setObject(power, forKey: "decibelLevel")
+        //newDecibelObject.setObject(dateString, forKey: "date")
+        
+//        var paramString: [String : Any] = ["Date": dateString, "decibelLevel": power, "User": userID];
+        let paramString = ["Timestamp": dateString, "decibelLevel": power, "ID_number": self.userID];
+
+        
+        NSLog(String(format:"decibelLevel = %.2f", power));
+        
+        
+        
+        // WRITE TO FILE //
+        
+        let fileurl = self.dir.URLByAppendingPathComponent("dec11_3.txt")
+        let pathString: String = fileurl.path! // convert to string for reading from file!! from: http://stackoverflow.com/questions/33510541/how-to-convert-nsurl-to-string-in-swift
+        
+        PATH_STRING = pathString
+        var stringNoise = ""
+        let powerString = String(format:"decibelLevel = %.2f", power)
+        stringNoise = "Timestamp: " + dateString
+        stringNoise = stringNoise + "decibelLevel:" + powerString
+        stringNoise = stringNoise + "ID_number: " + self.userID
+//        stringNoise  =  "Date: " + dateString + "decibelLevel: " + powerString + "User: " + self.userID
+        
+//        let stringToWrite  = "Date: " + timestmp + "acceleormeter: " + data + "User: " + self!.userID
+
+        
+        NSLog(stringNoise)
+        let dataToWrite = stringNoise.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)!
+        
+        
+        
+        if NSFileManager.defaultManager().fileExistsAtPath(fileurl.path!) {
+            var err:NSError?
+            do {
+                let fileHandle = try NSFileHandle(forWritingToURL: fileurl)
+                fileHandle.seekToEndOfFile()
+                fileHandle.writeData(dataToWrite)
+                NSLog("in writing to FILE")
+                let datastring = NSString(data: dataToWrite, encoding: NSUTF8StringEncoding ) as! String // from http://stackoverflow.com/questions/24023253/how-to-initialise-a-string-from-nsdata-in-swift
+                NSLog(datastring)
+                NSLog("DONE WRITING TO FILE")
+                fileHandle.closeFile()
+                
+            } catch let error as NSError {
+                err = error
+                print("Can't open fileHandle \(err)", terminator: "")
+            }
+        }
+        else {
+            var err:NSError?
+            do {
+                try dataToWrite.writeToURL(fileurl, options: .DataWritingAtomic)
+            } catch let error as NSError {
+                err = error
+                print("Can't write \(err)", terminator: "")
+            }
+        }
+        //END OF WRITE TO FILE///
+        
+
+        
+        // DEC 11 COMMENT OUT START
+        // START POST REQUEST FOR NOISE //
+//        Alamofire.request(.POST, "http://sleep.cs.brown.edu:80" , parameters: paramString as! [String : AnyObject]).response { res in
+//                NSLog("IN POST REUQUEST 1")
+//                print(res)
+//            }
+        // END POST REQUEST FOR NOISE //
+        // DEC 11 COMMENT OUT END
+        
+        //        change user later
+        
+//        newDecibelObject.setObject("adrienne", forKey: "user")
+//        recordedDecibelArray.append(power)
+//        recordedDateTimeArray.append(currentDate) // logged every second
+//
+//        newDecibelObject.saveInBackgroundWithBlock{
+//            (success: Bool, error: NSError?) -> Void in
+//            if (success == true){
+//                NSLog("decibel saved successfully")
+//            }
+//            else{
+//                NSLog(error!.description)
+//            }
+//        }
+        return
+    }
+    
+    func stopRecording(){
+        
+//        timer.invalidate()
+        
+        print("stopped recording")
+        print("recordedDecibelArray 2 \(recordedDecibelArray)")
+        print("recordedDateTimeArray 2 \(recordedDateTimeArray)")
+        
+        audioRecorder.stop()
+        
+        // wait for confirmation from server
+        // post recordDecibelArray to server
+        
+        let audioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try audioSession.setActive(false)
+        } catch _ {
+        }
+    }
+    
+    func audioRecorderDidFinishRecording(recorder: AVAudioRecorder, successfully flag: Bool) {
+        if (flag){
+            // store in model
+            recordedAudio = RecordedAudio()
+            recordedAudio.filePathURL = recorder.url
+            recordedAudio.title = recorder.url.lastPathComponent
+            
+            // segue once we've finished processing the audio
+        } else{
+            print("recording not successful")
+        }
+    }
+    
+    var timer_running = false
+    
+    @IBAction func startButton(sender: AnyObject) {
+//        var aMotion: CMDeviceMotion
+        label.text = "updating"
+        if timer_running == false {
+            timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("sayHello"), userInfo: nil, repeats: true)
+            timer_running = true
+            recordAudio()
+        }
+    }
+//    
+    @IBAction func stopButton(sender: AnyObject) {
+        motionManager.stopAccelerometerUpdates()
+        
+        Alamofire.request(.GET, postsEndpoint).responseJSON {
+            response in
+            if response.result.isSuccess{
+                NSLog("in GET REQUEST")
+                let jsonDic = response.result.value as! NSDictionary
+                let responseData = jsonDic["responseData"] as! NSDictionary
+            }
+        }
+        
+//        let myPathList: NSArray = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.CachesDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+//        
+//        var myPath = myPathList[0] as! String
+//        myPath = myPath + "oct21.txt"
+//        
+//        var error:NSError?
+//        do {
+//            let content = try String(contentsOfFile: myPath, encoding: NSUTF8StringEncoding)
+//            print(content)
+//        } catch let error1 as NSError {
+//            error = error1
+//        }
+        
+        timer.invalidate()
+        timer_running = false
+        stopRecording()
+        label.text = "stopped updating"
+        
+        // send data to server
+        
+        
+        // START OF READ FROM FILE ///
+        NSLog("START READ OF FILE")
+        
+        do {
+            let readFile = try String(contentsOfFile: PATH_STRING, encoding: NSUTF8StringEncoding)
+            let date = NSDate()
+            let stamp = Int(floor(date.timeIntervalSince1970*1000))
+            let timestmp = "\(stamp)" + ","
+            var data_file = self.userID + "," + timestmp
+            data_file = data_file + readFile
+            let upload_params = ["User": self.userID, "Date": timestmp, "Data": readFile]
+            // POST REQUEST START
+            Alamofire.request(.POST, "http://sleep.cs.brown.edu:80" , parameters: upload_params).response { res in
+                NSLog("IN POST REUQUEST STOP BUTTON")
+                print(res)
+            }
+            
+            // POST REQUEST END
+            NSLog("\(readFile)")
+        } catch let error as NSError {
+            print("Error: \(error)")
+        }
+        
+        NSLog("END READ OF FILE")
+        
+        // END OF READ FROM FILE ///
+    
+
+        
+        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        label.text = "Press Start to start updating"
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
+

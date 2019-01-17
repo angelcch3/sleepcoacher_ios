@@ -1,0 +1,23 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d4831781f99a1fc8609d50cd93569e04"
+build_time: [1543612918, 665468000]
+inputs:
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/RecordedAudio.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/GlobalMain.swift": [1543527723, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/ViewController.swift": [1543525347, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/SleepFlowOneViewController.swift": [1543604659, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/ExperimentsController.swift": [1541477825, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/PickerViewController.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/PopUpViewController.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/SleepFlowTwoViewController.swift": [1543605489, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/HistoryViewController.swift": [1541317926, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/UserInfoViewController.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/TermsViewController.swift": [1543524318, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/ExperimentTableViewCell.swift": [1543520238, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/SleepFlowThreeViewController.swift": [1543603285, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/ScrollViewController.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/SleepFlowFourViewController.swift": !private [1543612906, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/Reachability.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/ResultsViewController.swift": [1540930106, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/SleepSummaryViewController.swift": [1486047220, 0]
+  "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher/AppDelegate.swift": [1543604467, 0]

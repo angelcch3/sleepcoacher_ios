@@ -1,0 +1,790 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoryViewController"
+provides-nominal:
+- "12sleepcoacher21HistoryViewControllerC"
+provides-member:
+- ["12sleepcoacher21HistoryViewControllerC", ""]
+provides-dynamic-lookup:
+- "HistoryLabel"
+- "PATH_STRING"
+- "didReceiveMemoryWarning"
+- "fetchResults"
+- "fileurl"
+- "is_it_true"
+- "postsEndpoint"
+- "response"
+- "sent_response"
+- "userID"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "Alamofire"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Date"
+- !private "Dictionary"
+- "HistoryViewController"
+- !private "Int64"
+- !private "JSON"
+- "String"
+- "StringLiteralType"
+- "UIDevice"
+- "UILabel"
+- "UIViewController"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "floor"
+- !private "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "HistoryLabel"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UIDevice"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "fetchResults"]
+- !private ["s7CVarArgP", "floor"]
+- ["s7CVarArgP", "identifierForVendor"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "userID"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s10ComparableP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "HistoryLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchResults"]
+- !private ["s28CustomDebugStringConvertibleP", "floor"]
+- ["s28CustomDebugStringConvertibleP", "identifierForVendor"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "userID"]
+- ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "HistoryLabel"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UIDevice"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "fetchResults"]
+- !private ["s23CustomStringConvertibleP", "floor"]
+- ["s23CustomStringConvertibleP", "identifierForVendor"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "userID"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "timeIntervalSince1970"]
+- ["s9DecodableP", "uuidString"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "timeIntervalSince1970"]
+- ["s9EncodableP", "uuidString"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s9EquatableP", "Alamofire"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "HistoryLabel"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "JSON"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "UIDevice"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "fetchResults"]
+- !private ["s9EquatableP", "floor"]
+- ["s9EquatableP", "identifierForVendor"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "timeIntervalSince1970"]
+- !private ["s9EquatableP", "userID"]
+- !private ["s9EquatableP", "utf8"]
+- ["s9EquatableP", "uuidString"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Alamofire"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "HistoryLabel"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "JSON"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "UIDevice"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "current"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "fetchResults"]
+- !private ["s8HashableP", "floor"]
+- ["s8HashableP", "identifierForVendor"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "timeIntervalSince1970"]
+- !private ["s8HashableP", "userID"]
+- !private ["s8HashableP", "utf8"]
+- ["s8HashableP", "uuidString"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "Alamofire"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "Date"]
+- ["12sleepcoacher21HistoryViewControllerC", "HistoryLabel"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "Int64"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "JSON"]
+- ["12sleepcoacher21HistoryViewControllerC", "PATH_STRING"]
+- ["12sleepcoacher21HistoryViewControllerC", "String"]
+- ["12sleepcoacher21HistoryViewControllerC", "UIDevice"]
+- ["12sleepcoacher21HistoryViewControllerC", "UILabel"]
+- ["12sleepcoacher21HistoryViewControllerC", "URL"]
+- ["12sleepcoacher21HistoryViewControllerC", "deinit"]
+- ["12sleepcoacher21HistoryViewControllerC", "didReceiveMemoryWarning"]
+- ["12sleepcoacher21HistoryViewControllerC", "fetchResults"]
+- ["12sleepcoacher21HistoryViewControllerC", "fileurl"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "floor"]
+- ["12sleepcoacher21HistoryViewControllerC", "init"]
+- ["12sleepcoacher21HistoryViewControllerC", "is_it_true"]
+- ["12sleepcoacher21HistoryViewControllerC", "postsEndpoint"]
+- !private ["12sleepcoacher21HistoryViewControllerC", "print"]
+- ["12sleepcoacher21HistoryViewControllerC", "response"]
+- ["12sleepcoacher21HistoryViewControllerC", "sent_response"]
+- ["12sleepcoacher21HistoryViewControllerC", "userID"]
+- ["12sleepcoacher21HistoryViewControllerC", "viewDidLoad"]
+- !private ["s5Int64V", "init"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Alamofire"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "HistoryLabel"]
+- !private ["So8NSCodingP", "Int64"]
+- !private ["So8NSCodingP", "JSON"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIDevice"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "fetchResults"]
+- !private ["So8NSCodingP", "floor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "userID"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
+- !private ["So26NSExtensionRequestHandlingP", "Date"]
+- !private ["So26NSExtensionRequestHandlingP", "HistoryLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "Int64"]
+- !private ["So26NSExtensionRequestHandlingP", "JSON"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UIDevice"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "fetchResults"]
+- !private ["So26NSExtensionRequestHandlingP", "floor"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "userID"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "HistoryLabel"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "JSON"]
+- ["So8NSObjectC", "PATH_STRING"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIDevice"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "fetchResults"]
+- ["So8NSObjectC", "fileurl"]
+- !private ["So8NSObjectC", "floor"]
+- ["So8NSObjectC", "identifierForVendor"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "is_it_true"]
+- ["So8NSObjectC", "postsEndpoint"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "response"]
+- ["So8NSObjectC", "sent_response"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "userID"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "HistoryLabel"]
+- !private ["So16NSObjectProtocolP", "Int64"]
+- !private ["So16NSObjectProtocolP", "JSON"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", "UIDevice"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "fetchResults"]
+- !private ["So16NSObjectProtocolP", "floor"]
+- ["So16NSObjectProtocolP", "identifierForVendor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "userID"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["s7NumericP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "subscript"]
+- !private ["s16RawRepresentableP", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- !private ["So21UIAppearanceContainerP", "HistoryLabel"]
+- !private ["So21UIAppearanceContainerP", "Int64"]
+- !private ["So21UIAppearanceContainerP", "JSON"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIDevice"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "fetchResults"]
+- !private ["So21UIAppearanceContainerP", "floor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "userID"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Alamofire"]
+- !private ["So18UIContentContainerP", "Date"]
+- !private ["So18UIContentContainerP", "HistoryLabel"]
+- !private ["So18UIContentContainerP", "Int64"]
+- !private ["So18UIContentContainerP", "JSON"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UIDevice"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "fetchResults"]
+- !private ["So18UIContentContainerP", "floor"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "userID"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So8UIDeviceC", "current"]
+- ["So8UIDeviceC", "identifierForVendor"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- !private ["So18UIFocusEnvironmentP", "HistoryLabel"]
+- !private ["So18UIFocusEnvironmentP", "Int64"]
+- !private ["So18UIFocusEnvironmentP", "JSON"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIDevice"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "fetchResults"]
+- !private ["So18UIFocusEnvironmentP", "floor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "userID"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- !private ["So30UIPasteConfigurationSupportingP", "HistoryLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int64"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSON"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIDevice"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "fetchResults"]
+- !private ["So30UIPasteConfigurationSupportingP", "floor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "userID"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Alamofire"]
+- !private ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "HistoryLabel"]
+- !private ["So11UIResponderC", "Int64"]
+- !private ["So11UIResponderC", "JSON"]
+- ["So11UIResponderC", "PATH_STRING"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIDevice"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "fetchResults"]
+- ["So11UIResponderC", "fileurl"]
+- !private ["So11UIResponderC", "floor"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "is_it_true"]
+- ["So11UIResponderC", "postsEndpoint"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "response"]
+- ["So11UIResponderC", "sent_response"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "userID"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- !private ["So30UIResponderStandardEditActionsP", "HistoryLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "Int64"]
+- !private ["So30UIResponderStandardEditActionsP", "JSON"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIDevice"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "fetchResults"]
+- !private ["So30UIResponderStandardEditActionsP", "floor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "userID"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
+- !private ["So16UIStateRestoringP", "Date"]
+- !private ["So16UIStateRestoringP", "HistoryLabel"]
+- !private ["So16UIStateRestoringP", "Int64"]
+- !private ["So16UIStateRestoringP", "JSON"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UIDevice"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "fetchResults"]
+- !private ["So16UIStateRestoringP", "floor"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "userID"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- !private ["So18UITraitEnvironmentP", "HistoryLabel"]
+- !private ["So18UITraitEnvironmentP", "Int64"]
+- !private ["So18UITraitEnvironmentP", "JSON"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIDevice"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "fetchResults"]
+- !private ["So18UITraitEnvironmentP", "floor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "userID"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Alamofire"]
+- !private ["So16UIViewControllerC", "Date"]
+- ["So16UIViewControllerC", "HistoryLabel"]
+- !private ["So16UIViewControllerC", "Int64"]
+- !private ["So16UIViewControllerC", "JSON"]
+- ["So16UIViewControllerC", "PATH_STRING"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIDevice"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "fetchResults"]
+- ["So16UIViewControllerC", "fileurl"]
+- !private ["So16UIViewControllerC", "floor"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "is_it_true"]
+- ["So16UIViewControllerC", "postsEndpoint"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "response"]
+- ["So16UIViewControllerC", "sent_response"]
+- ["So16UIViewControllerC", "userID"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["10Foundation4UUIDV", "uuidString"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HistoryLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchResults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "identifierForVendor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "10Foundation4DateV"
+- "s9DecodableP"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "12sleepcoacher21HistoryViewControllerC"
+- !private "s5Int64V"
+- !private "10SwiftyJSON0B0V"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "9Alamofire14URLConvertibleP"
+- "10Foundation4UUIDV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Modules/ResearchKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ResearchKit-umbrella.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDeprecated.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAudioLevelNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStepNavigationRule_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKOrderedTask_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentSection_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPageStep_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKRecorder_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTaskViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStepViewController_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHelpers_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAnswerFormat_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ResearchKit_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKResult_Private.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKBorderedButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKContinueButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTextButton.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPSATStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestPlaceStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryPracticeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKNavigablePageStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTableStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKReactionTimeStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTouchAnywhereStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKSignatureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVideoCaptureStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestRemoveStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTrailmakingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTowerOfHanoiStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKWalkingTaskStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTappingIntervalStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVideoInstructionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCompletionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKShoulderRangeOfMotionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCountdownStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAudioStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStroopStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKFitnessStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKSpatialSpanMemoryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryStep.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/sleepcoacher-Bridging-Header.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHealthQuantityTypeRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTouchRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKLocationRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDeviceMotionRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAudioRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPedometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAccelerometerRecorder.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDataCollectionManager.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDataLogger.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPSATStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPasscodeStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPageStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTableStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTouchAnywhereStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKSignatureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentSharingStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTimedWalkStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKWalkingTaskStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTappingIntervalStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVideoInstructionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCompletionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKQuestionStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCountdownStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAudioStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKStroopStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKFitnessStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKWaitStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKVisualConsentStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentReviewStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKToneAudiometryStepViewController.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCollector.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKChartTypes.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKErrors.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKCustomStepView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Headers/ORKBarGraphChartView.h"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Products/Debug-iphoneos/ResearchKit/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "c4270fcf51bc58cb8cb957876d9ec9c0"

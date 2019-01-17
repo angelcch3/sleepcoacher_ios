@@ -1,0 +1,40 @@
+dependencies: \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.m \
+  /Users/angelc/projects/sleepcoacher/TESTING/DerivedData/sleepcoacher/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ResearchKit.build/module.modulemap \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/Target\ Support\ Files/ResearchKit/ResearchKit-prefix.pch \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKDefines.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKRecorder.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKInstructionStepViewController_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKInstructionStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKFormStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKQuestionStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStepViewController_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStepViewController_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTappingIntervalStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTaskViewController_Private.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKVisualConsentStepViewController.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTypes.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKFormStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKInstructionStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKOrderedTask.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKTask.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKQuestionStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKResult_Private.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKResult.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStep_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKReviewStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKStep_Private.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/ActiveTasks/ORKTappingIntervalStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Consent/ORKVisualConsentStep.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKHelpers_Internal.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKHelpers_Private.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKErrors.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKObserver.h \
+  /Users/angelc/projects/sleepcoacher/TESTING/Pods/ResearchKit/ResearchKit/Common/ORKSkin.h

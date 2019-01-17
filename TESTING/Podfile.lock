@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.0.0)
+  - ResearchKit (1.5.2)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.0.0`)
+  - ResearchKit (~> 1.0)
+  - SQLite.swift (~> 0.11.5)
+  - SwiftyJSON (= 3.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ResearchKit
+    - SQLite.swift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  ResearchKit: a5770681dd61afddd3d1f24d232b9abf00cba454
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+
+PODFILE CHECKSUM: 18429ccf0e4c06ae04ead8a9323468144099d6a1
+
+COCOAPODS: 1.5.3

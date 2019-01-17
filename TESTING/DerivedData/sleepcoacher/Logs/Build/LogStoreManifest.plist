@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>98ADDF66-3961-4DF3-B7B9-ADE6849A4AD4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>98ADDF66-3961-4DF3-B7B9-ADE6849A4AD4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>sleepcoacher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sleepcoacher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sleepcoacher</string>
+			<key>timeStartedRecording</key>
+			<real>565305729.20608497</real>
+			<key>timeStoppedRecording</key>
+			<real>565305741.47274196</real>
+			<key>title</key>
+			<string>Build sleepcoacher</string>
+			<key>uniqueIdentifier</key>
+			<string>98ADDF66-3961-4DF3-B7B9-ADE6849A4AD4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

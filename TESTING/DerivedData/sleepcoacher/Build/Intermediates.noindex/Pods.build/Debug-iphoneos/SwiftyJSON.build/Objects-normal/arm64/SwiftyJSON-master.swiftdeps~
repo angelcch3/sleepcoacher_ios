@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ee5dc45175c6c4d1bee15de000291e3f"
+build_time: [1542142867, 336740000]
+inputs:
+  "/Users/angelc/projects/sleepcoacher/TESTING/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1486047220, 0]
